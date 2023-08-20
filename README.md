@@ -11,7 +11,7 @@ FlatiosGuard, bellek kullanımını izlemek ve istenmeyen bellek durumlarını y
 1. Repoyu klonlayın: `git clone https://github.com/Flatios/FAutoSettingsSentry.git`
 2. Proje klasörüne gidin: `cd FlatiosGuard`
 3. Gerekli bağımlılıkları yüklemek için: `pip install -r requirements.txt`
-4. Programı başlatın: `python flatios_guard.py`
+4. Programı başlatın: `python FAutoSettingsSentry.py`
 
 ### Nasıl Kullanılır
 
