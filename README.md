@@ -1,9 +1,26 @@
-**FlatiosGuard: Akıllı Bellek İzleme ve Otomatik Ayar Kontrol Programı**
-
 FlatiosGuard, bellek kullanımını izlemek ve istenmeyen bellek durumlarını yönetmek amacıyla tasarlanmış bir yazılımdır. Program, iki ana işlevi bir araya getirerek kullanıcı deneyimini optimize eder.
 
-1. Bellek Kontrolü: FlatiosGuard, çalıştığı sistemde takılan bellekleri tarar ve eğer "Flatios" adını taşıyan bir bellek algılar ise anında müdahale ederek sisteminizin güvenliğini sağlar.
+### Öne Çıkan Özellikler
 
-2. Otomatik Ayar Kontrolü: FlatiosGuard, belirli aralıklarla sistem ayarlarını izler. Eğer belirlenen süre zarfında bir ayar değişikliği yapılırsa, kullanıcının onayını almadan ayarlarınızı etkilemez. Ancak ayarlarınızda değişiklik olmadıysa ve ayarlar uygulama açıksa, otomatik olarak ayarlarınızı sıfırlayarak gereksiz sistem kaynaklarını serbest bırakır.
+- **Bellek Kontrolü:** Sistemdeki takılan bellekleri tarar ve "Flatios" adını taşıyan bellekleri tespit eder. Güvenliğinizi sağlamak için anında önlem alır.
 
-FlatiosGuard, kullanıcıların sistemlerini daha güvenli ve verimli bir şekilde kullanmalarına yardımcı olmak üzere tasarlanmıştır. Bu yazılım, bellek izleme ve otomatik ayar kontrolünü bir araya getirerek kullanıcıların gereksiz sistem kesintilerini önlemesine ve en iyi performansı elde etmelerine yardımcı olur.
+- **Otomatik Ayar Kontrolü:** Belirli aralıklarla sistem ayarlarını izler. Eğer ayarlarda değişiklik olursa ve uygulama açıksa, kullanıcının onayını alarak gereksiz sistem kaynaklarını serbest bırakır.
+
+### Kurulum
+
+1. Repoyu klonlayın: `git clone https://github.com/Flatios/FAutoSettingsSentry.git`
+2. Proje klasörüne gidin: `cd FlatiosGuard`
+3. Gerekli bağımlılıkları yüklemek için: `pip install -r requirements.txt`
+4. Programı başlatın: `python flatios_guard.py`
+
+### Nasıl Kullanılır
+
+Programı başlattıktan sonra, bellek izleme ve ayar kontrolünün otomatik olarak çalıştığını göreceksiniz. Bellek sorunları veya ayar değişiklikleri tespit edildiğinde, program hızla tepki verir.
+
+### Katkı Sağlama
+
+Yeniliklere ve geliştirmelere katkıda bulunmak isterseniz, lütfen bir çekme isteği oluşturun. Her türlü katkı ve geri bildirim çok değerlidir!
+
+---
+
+**FlatiosGuard**, bellek izleme ve ayar kontrolünü bir araya getirerek daha güvenli ve verimli bir sistem deneyimi sunar. Geliştiriciler ve sistem yöneticileri için tasarlanmıştır.
